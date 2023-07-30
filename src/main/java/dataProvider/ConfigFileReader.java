@@ -12,7 +12,7 @@ public class ConfigFileReader {
 
     private ConfigFileReader() {
 		BufferedReader reader;
-	    	String propertyFilePath = "/Users/PPL/eclipse-workspace/AMPOL/API/configs/configuration.properties";
+	    	String propertyFilePath = "./configs/configuration.properties";
 	        try {
 	            reader = new BufferedReader(new FileReader(propertyFilePath));
 	            properties = new Properties();

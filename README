@@ -1,0 +1,12 @@
+This is the solution to Part 1: API Test, written in REST Assured(Java)
+
+Please make sure Java(1.8 or above) and Maven are installed in your machine before executing the following steps.
+
+Step 1: Retrieve the source code from repo
+        git clone https://github.com/xingyue1121/Cypress_AMPOL_UI.git
+Step 2: Install all dependencies
+        /projectFolder  npm install --save
+Step 3: Run the Cypress UI tests on browser (such as Chrome)
+        /projectFolder  npx cypress run --browser chrome --headed
+           
+After the tests complete, you can see in the project folder a intercept_reuslt.json file generated, where the intercepted network response is writen. 
